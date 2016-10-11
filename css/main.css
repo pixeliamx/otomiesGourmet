@@ -1,0 +1,124 @@
+/*
+    Autor Pixelia
+    Cliente Otomies Gourmet
+    Web www.otomiesgourmet.com
+    Fecha 20 de Septiembre 2016
+*/
+body {
+  background: #000;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+h1 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}
+hr {
+  border-color: #d8af7f;
+  border: 1px thin;
+  width: 200px;
+}
+p {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+nav {
+  background: rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  width: 100%;
+}
+nav ul {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+nav ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0px 10px;
+  padding: 0px;
+}
+nav ul li a {
+  color: #d8af7f;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container {
+  background: url("../img/background.jpg") repeat;
+  margin: 0 auto;
+  width: 80%;
+}
+.descripcion {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10%;
+  text-align: center;
+  width: 50%;
+}
+.descripcion__presentaciones {
+  color: #d8af7f;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  font-style: italic;
+}
+.fotografia__producto {
+  width: 50%;
+}
+.logotipo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 20%;
+}
+.logotipo img {
+  width: 70%;
+}
+.presentacion__producto {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0px;
+  position: relative;
+  width: 100%;
+}
+.video {
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 5% 10%;
+}
+.video__contenedor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+}
+.video__descripcion {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.video__firma {
+  color: #d8af7f;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2em;
+}
+.video__texto {
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.7em;
+}
